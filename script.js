@@ -113,7 +113,7 @@ allCards.forEach(function(card) {
  var grisBtn = bannerElements.querySelector(".btn.btn-secondary.my-2");
  console.log(grisBtn); //verif
 
- var cardParent = document.querySelector(".album.py-5.bg-light");
+ var cardParent = document.querySelector(".album.py-5.bg-light .row");
 
  grisBtn.addEventListener("click", function() { 
 
