@@ -51,3 +51,10 @@ clicOnEditBtn2.addEventListener("click", function(){
 
 // fonctionalité 5
 
+var navbar = document.querySelector(".navbar");
+var bootstrapLink = document.querySelector("link[rel='stylesheet']");
+
+navbar.addEventListener("dblclick", function(){
+
+    bootstrapLink.disabled = !bootstrapLink.disabled;
+});
